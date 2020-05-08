@@ -1,0 +1,135 @@
+
+.center{
+    display: flex;
+    justify-content: space-evenly; 
+    height: 475px;
+    flex-wrap:wrap ;
+    
+   
+    
+    }
+    .heading{
+        display: flex;
+    
+    }
+    .htext,.hbtn{
+     
+        flex: 1;
+    
+    }
+    .htext{
+        flex: 1;
+        
+    }
+    .left,.right{
+        flex: 1;
+        background-color: rgb(176, 192, 223);
+      
+    }
+    
+    .two_sub{
+        
+        justify-content: center;
+        font-size: 35px;
+        font-weight: bolder;
+        
+    
+    }
+    @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+    .left {
+        
+        font-size: 15px;
+        text-align: center;
+        
+      }
+      .foot{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        margin: 0px;
+        background-color: rgb(141, 146, 150);
+      }
+      .one_table{
+        display: flex;
+        justify-content: center;
+         font-size: 25px;
+        font-weight: bolder;
+        color: rgb(92, 20, 30);
+       
+      }
+      .one_left{
+       
+            flex: 1;
+            justify-content: center;
+            background-color: rgb(176, 192, 223);
+      }
+      h1{
+        font-size: 30px;
+        font-weight: bolder;
+        text-align:center;
+        color: rgb(9, 9, 59);
+        background-color: rgb(176, 192, 223);
+        margin-bottom: auto;
+        padding-bottom: 2px;
+      }
+     
+       
+        
+    
+    
+    
+    
+    
+  
+  .text{
+      
+      font-family: 'Gayathri', sans-serif;
+  }
+  
+  .outset{
+    border: 3px solid rgb(123, 151, 151);
+    outline-style: solid;
+    outline-color: rgb(176, 192, 223);
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    
+  }
+  .text{
+    display: flex;
+    margin-left: 125px;
+    font-size: 35px;
+    font-weight: bold;
+  text-align: center;
+  }
+    .btn:hover{
+        background-color: rgb(238, 13, 13);
+        
+        
+        border-radius: 15px;
+        box-shadow: 10px 15px 26px black;
+        overflow: hidden;
+      }
+      .links:hover{
+        background-color:bisque;
+        
+        
+        border-radius: 5px;
+        box-shadow: 10px 15px 26px black;
+        overflow: hidden;
+      }
+      body { 
+        animation: fadeInAnimation ease 3s; 
+        animation-iteration-count: 1; 
+        animation-fill-mode: forwards; 
+      } 
+      @keyframes fadeInAnimation { 
+        0% { 
+            opacity: 0; 
+        } 
+        100% { 
+            opacity: 1; 
+        } 
+      } 
+       
